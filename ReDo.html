@@ -68,6 +68,8 @@
 <script>
 
     function saveGuest() {
+        document.getElementById('tbody').innerHTML = "";
+
         const name = document.getElementById("txtName").value
         const phoneNumber = document.getElementById("txtPhoneNumber").value
         const address = document.getElementById("txtAddress").value
